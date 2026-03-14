@@ -28,11 +28,44 @@
 .content ul{
     list-style: none;
 }
-.content ul a{
+.content ul a, .footer a{
     color: white;
     text-decoration: none;
 }
-.content a:hover{
+.content a:hover, .footer a:hover{
     color: black;
     
+}
+.recipe-card{
+    padding: 25px;
+    text-align: center;
+    background-color: rgb(72, 184, 240);
+}
+.recipe-picture{
+    border: ridge black;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.recipe-content, .recipe-description{
+    margin: 25px auto;
+    width: 50%;
+    display: inline-block;
+    text-align: left;
+}
+.recipe-description h2{
+    margin-bottom: 20px;
+}
+.recipe-content p, li, .recipe-description p{
+    font-size: 19px;
+}
+.recipe-content ol{
+    list-style: none;
+    padding: 5px;
+}
+.recipe-content ol li{
+    padding: 15px;
+}
+.footer{
+    text-align: center;
+    font-size: 25px;
 }
