@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.card{
+    background-color: rgb(22, 167, 240);
+    margin: 100px  auto;
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+}
+.title{
+    line-height: 50px;
+    margin-bottom: 12px;
+}
+.title  a{
+    text-decoration: none;
+    color: white;
+}
+.title a:hover{
+    color: black;
+}
+.content{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.content ul{
+    list-style: none;
+}
+.content ul a{
+    color: white;
+    text-decoration: none;
+}
+.content a:hover{
+    color: black;
+    
+}
